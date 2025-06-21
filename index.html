@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WizzWar - Competitive eSports Platform</title>
+  <link rel="icon" type="image/png" href="ic_logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+  
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader">
+      <div class="loader-inner">
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Navigation -->
+  <nav class="floating-nav">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="ic_logo.png" alt="WizzWar Logo">
+        <span>WizzWar</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#download">Download</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="app-logo-container">
+        <img src="ic_logo.png" alt="App Logo" class="app-logo">
+        <div class="glow"></div>
+      </div>
+      <h1 class="hero-title">
+        <span class="title-word title-word-1">Compete.</span>
+        <span class="title-word title-word-2">Win.</span>
+        <span class="title-word title-word-3">Earn.</span>
+      </h1>
+      <p class="hero-subtitle">আপনি কি একজন eSports Player? প্রতিদিন গেম খেলে টাকা ইনকাম করুন এবং দেখিয়ে দিন আপনি একজন Real eSports Player</p>
+      <div class="cta-buttons">
+        <a href="wizzwar.apk" class="btn btn-primary" download>
+          <span>Download APK</span>
+          <i class="fas fa-download"></i>
+          <div class="hover-effect"></div>
+        </a>
+        <a href="#features" class="btn btn-secondary">
+          <span>Explore Features</span>
+          <i class="fas fa-chevron-right"></i>
+        </a>
+      </div>
+      <div class="scroll-down">
+        <span>Scroll Down</span>
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-overlay"></div>
+  </header>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="container">
+      <div class="stat-card">
+        <div class="stat-number" data-count="50000">0</div>
+        <div class="stat-label">Active Players</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" data-count="1000000">0</div>
+        <div class="stat-label">Tournaments</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" data-count="5000000">0</div>
+        <div class="stat-label">৳ Payouts</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="section-header">
+      <h2>Why Choose WizzWar?</h2>
+      <p>Experience the ultimate eSports platform with cutting-edge features</p>
+      <div class="header-decoration"></div>
+    </div>
+    <div class="container">
+      <div class="feature-cards">
+        <div class="feature-card">
+          <div class="card-icon">
+            <i class="fas fa-trophy"></i>
+            <div class="icon-bg"></div>
+          </div>
+          <h3>Exciting Rewards</h3>
+          <p>Win real prizes and recognition in every tournament with our massive prize pools.</p>
+          <div class="card-decoration"></div>
+        </div>
+        <div class="feature-card">
+          <div class="card-icon">
+            <i class="fas fa-users"></i>
+            <div class="icon-bg"></div>
+          </div>
+          <h3>Global Community</h3>
+          <p>Connect with gamers worldwide, create squads, and climb the leaderboards together.</p>
+          <div class="card-decoration"></div>
+        </div>
+        <div class="feature-card">
+          <div class="card-icon">
+            <i class="fas fa-bolt"></i>
+            <div class="icon-bg"></div>
+          </div>
+          <h3>Instant Withdraw</h3>
+          <p>Get your winnings instantly with our secure and lightning-fast payment system.</p>
+          <div class="card-decoration"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Game Carousel Section -->
+  <section class="games">
+    <div class="section-header">
+      <h2>Supported Games</h2>
+      <p>Compete in your favorite games and earn rewards</p>
+      <div class="header-decoration"></div>
+    </div>
+    <div class="game-carousel">
+      <div class="game-slide">
+        <img src="https://via.placeholder.com/300x400?text=Free+Fire" alt="Free Fire">
+        <div class="game-info">
+          <h3>Free Fire</h3>
+          <p>Battle Royale</p>
+        </div>
+      </div>
+      <div class="game-slide">
+        <img src="https://via.placeholder.com/300x400?text=PubG" alt="PubG">
+        <div class="game-info">
+          <h3>PubG Mobile</h3>
+          <p>Battle Royale</p>
+        </div>
+      </div>
+      <div class="game-slide">
+        <img src="https://via.placeholder.com/300x400?text=Call+of+Duty" alt="Call of Duty">
+        <div class="game-info">
+          <h3>Call of Duty</h3>
+          <p>FPS</p>
+        </div>
+      </div>
+      <div class="game-slide">
+        <img src="https://via.placeholder.com/300x400?text=Clash+of+Clans" alt="Clash of Clans">
+        <div class="game-info">
+          <h3>Clash of Clans</h3>
+          <p>Strategy</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="section-header">
+      <h2>Player Testimonials</h2>
+      <p>Hear from our champion players</p>
+      <div class="header-decoration"></div>
+    </div>
+    <div class="testimonial-carousel">
+      <div class="testimonial-slide">
+        <div class="player-photo"></div>
+        <div class="testimonial-content">
+          <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+          <p>"WizzWar changed my gaming experience completely. I've earned over ৳50,000 in just three months!"</p>
+          <div class="player-info">
+            <h4>Rahim Khan</h4>
+            <span>Top Free Fire Player</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-slide">
+        <div class="player-photo"></div>
+        <div class="testimonial-content">
+          <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+          <p>"The tournaments are well-organized and the withdrawal process is super fast. Highly recommended!"</p>
+          <div class="player-info">
+            <h4>Sumaiya Akter</h4>
+            <span>PubG Mobile Champion</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download" class="download">
+    <div class="container">
+      <div class="download-content">
+        <h2>Ready to Start Your Journey?</h2>
+        <p>Download WizzWar now and join thousands of players earning real money from gaming</p>
+        <div class="download-buttons">
+          <a href="wizzwar.apk" class="btn btn-download" download>
+            <div class="btn-content">
+              <i class="fas fa-download"></i>
+              <span>Download APK</span>
+            </div>
+            <div class="btn-bg"></div>
+          </a>
+          <div class="qr-code">
+            <img src="https://via.placeholder.com/150x150?text=Scan+to+Download" alt="QR Code">
+            <p>Scan to Download</p>
+          </div>
+        </div>
+      </div>
+      <div class="phone-mockup">
+        <div class="phone-screen">
+          <div class="screen-content">
+            <img src="ic_logo.png" alt="WizzWar App">
+            <h3>WizzWar</h3>
+            <div class="loading-bar">
+              <div class="loading-progress"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="download-wave"></div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq">
+    <div class="section-header">
+      <h2>Frequently Asked Questions</h2>
+      <p>Find answers to common questions about WizzWar</p>
+      <div class="header-decoration"></div>
+    </div>
+    <div class="faq-container">
+      <div class="faq-item">
+        <div class="faq-question">
+          <h3>How do I withdraw my earnings?</h3>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>Withdrawing your earnings is simple! Just go to the Wallet section in the app, enter the amount you want to withdraw, and choose your preferred payment method. Withdrawals are processed within 24 hours.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <h3>Is there an entry fee for tournaments?</h3>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>We offer both free and paid tournaments. Free tournaments have smaller prize pools, while paid tournaments offer bigger rewards. You can choose which tournaments to join based on your preference.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">
+          <h3>What games are supported on WizzWar?</h3>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+        <div class="faq-answer">
+          <p>We currently support popular mobile games like Free Fire, PubG Mobile, Call of Duty Mobile, Clash of Clans, and more. We're constantly adding new games based on player demand.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-info">
+        <h2>Get In Touch</h2>
+        <p>Have questions or feedback? We'd love to hear from you!</p>
+        <div class="contact-methods">
+          <div class="contact-method">
+            <i class="fas fa-envelope"></i>
+            <span>support@wizzwar.com</span>
+          </div>
+          <div class="contact-method">
+            <i class="fas fa-phone"></i>
+            <span>+880 1XXX-XXXXXX</span>
+          </div>
+          <div class="contact-method">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Dhaka, Bangladesh</span>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-discord"></i></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form>
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-submit">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-logo">
+        <img src="ic_logo.png" alt="WizzWar Logo">
+        <h3>WizzWar</h3>
+      </div>
+      <div class="footer-links">
+        <div class="link-group">
+          <h4>Company</h4>
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Blog</a>
+        </div>
+        <div class="link-group">
+          <h4>Legal</h4>
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Refund Policy</a>
+        </div>
+        <div class="link-group">
+          <h4>Support</h4>
+          <a href="#">Help Center</a>
+          <a href="#">Community</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 WizzWar. All rights reserved.</p>
+      <div class="payment-methods">
+        <i class="fab fa-cc-visa"></i>
+        <i class="fab fa-cc-mastercard"></i>
+        <i class="fab fa-cc-paypal"></i>
+        <i class="fas fa-money-bill-wave"></i>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
